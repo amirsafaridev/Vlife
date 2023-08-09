@@ -1,0 +1,159 @@
+.arta_main_prom_box{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    border: 1px solid #dadada;
+    margin: 10px 0;
+}
+.col1{
+    flex: 20%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col2{
+    flex: 60%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.col3{
+    flex: 20%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#prom_img{
+    width: 100%;
+    height: max-content;
+}
+.arta_prom_input{
+    flex: 100%;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+/*front css for shortcode*/
+
+.art_prom_item{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+
+.prom_img_box{
+    flex: 20%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prom_img_box img{
+    width: 100%;
+    height: max-content;
+}
+.arta_prom_content_box{
+    flex: 60%;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.arta_prom_title{
+    margin: 0;
+    font-weight: bold;
+}
+.arta_prom_details{
+    flex: 20%;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.arta_prom_details p {
+    background: #c1c1c12e;
+    padding: 5px 15px;
+}
+
+.arta_prom_cta{
+    background: #0693e3;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+.arta_promotions_main_box{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.art_prom_item_v_all{
+    background-size: 100% 100% !important;
+    width: 25%;
+    padding: 25px;
+    display: unset;
+    height: auto;
+    text-decoration: blink !important;
+}
+.art_prom_item_v_all img{
+    width: 100%;
+
+}
+.art_prom_item_v_all .arta_prom_detail_box{
+    padding: 7px;
+    background: black;
+}
+.art_prom_item_v_all .arta_prom_detail_box p{
+    color: white;
+    margin: 0;
+
+}
+.art_prom_item_v_all .arta_prom_detail_box p:nth-child(1){
+    height:50px;
+}
+.art_prom_item_v_all .arta_prom_detail_box p:nth-child(2){
+    color: gold;
+    text-align: right;
+}
+.art_prom_item_v_all .arta_prom_detail_box p:nth-child(2) span{
+    color: red;
+    font-weight: bold;
+}
+.arta_promotions_sort_action{
+    width: 100%;
+    margin: 15px 0;
+}
+.arta_promotions_sort_action form {
+    float : right;
+}
+.arta_promotions_sort_action form select{
+    width: max-content;
+}
+.arta_delete_prom{
+
+    width: 25px;
+
+    float: right;
+
+    position: absolute;
+
+    margin-left: -11px;
+
+    margin-top: -10px;
+}
+.arta_delete_prom svg {
+    color: red;
+}
